@@ -10,4 +10,4 @@ exports.mirrorSubscriptionsFollowed = functions.database.ref('/following/{follow
 exports.mirrorSubscriptionsUnfollowed = functions.database.ref('/following/{follower_id}/{followed_id}').onDelete(subscriptionsModule.mirrorSubscriptionsUnfollowed);
 
 // Registration
-exports.createEmptyUserDataInDB = functions.auth.user().onCreate(registrationModule.createEmptyUserDataInDB);
+exports.createEmptyUserDataInDB = functions.database.ref('/users/{user_id}').onCreate(registrationModule.createEmptyUserDataInDB);
