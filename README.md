@@ -17,7 +17,8 @@ There are only two operations so far:
 
 ### Other Repos of Flist
    - [IOS App Repo](https://github.com/romatallinn/flist-ios.git) -- the repository for the IOS application project.
-   - [Website Repo](https://github.com/romatallinn/flist-ios/blob/master) -- the repository for the web part of Flist. Includes both the landing page and the user's profile page.
+   - [Website Repo](https://github.com/romatallinn/flist-web.git) -- the repository for the web part of Flist. Includes both the landing page and the user's profile page.
+   - [Extras](https://github.com/romatallinn/flist-extras.git) -- the repository for the extra material of Flist. Mainly focuses on the structure of the database and the storage, but also includes some media and press content.
 
 
 ### License
